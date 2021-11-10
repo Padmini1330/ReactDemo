@@ -1,0 +1,54 @@
+body
+{
+    padding:2em;
+}
+
+.headerContainer
+{
+    display:flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background: tomato;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.footerContainer
+{
+    display:flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background: lightgreen;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.mainContainer
+{
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align:center;
+}
+
+.mainContainerItem
+{
+    text-align: left;
+    background: deepskyblue;
+}
+
+article
+{
+    padding: 10px;
+    margin: 10px;
+    background-color: aqua;
+}
+
+.sideBarLeftItem{ background: gold;}
+.sideBarRightItem{ background: hotpink;}
+
+.sideBarItem{ flex: 1 0 0; border: 0px solid green;}
+.mainContainerItem{ flex: 3 0px;}
+.sideBarLeftItem{ order: 1;}
+.mainContainerItem{ order: 2;}
+.sideBarRightItem{ order: 3;}
