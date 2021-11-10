@@ -38,7 +38,10 @@ body
     background-color: #FF9500;
     padding:5px solid black;
 }
-
+body
+{
+  border: 5px solid black;
+}
 h1
 {
     padding-top: 5%;
