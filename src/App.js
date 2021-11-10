@@ -32,19 +32,32 @@ class App extends React.Component {
   }
   render() {
     return (
-      <>
-      <div>
+      <body>
         <h1>Hello {this.state.userName} from Bridgelabz</h1>
         <img src={logo} onClick={this.onClick}
           alt="The Bridgelabz logo : a Bridge to employment through lab works"/>
-      </div>
-      <div>
+          <br/>
         <input class="textField" onChange={this.onNameChange} />
         <span className= "error-output">{this.state.nameError}</span>
-      </div>
-      </>
+
+        <p>At Bridgelabz,we are a techie community of</p>
+        <ul>
+            <li>Technologists</li>
+            <li>Thinkers</li>
+            <li>Builders</li>
+        </ul>
+        <p> Working together to keep the tech Employablility of Engineers alive and accessible, 
+            so Tech Companies worldwide can get contributors and creators for technology solutions.
+            We believe this act of human collaboration accross an employability platform is essential
+            to individual growth and our collective future</p>
+        <p> To know about us, visit <a href="https://www.bridgelabz.com/">BridgeLabz</a>
+            to learn even more about our mission i.e, <strong>Employablility to all</strong></p>
+    </body>
     );   
-  }
+  }    
 }
+
+
+
 
 export default App;
