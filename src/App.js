@@ -32,7 +32,8 @@ class App extends React.Component {
   }
   render() {
     return (
-      <body>
+      <>
+        <div id="body1">
         <h1>Hello {this.state.userName} from Bridgelabz</h1>
         <img src={logo} onClick={this.onClick}
           alt="The Bridgelabz logo : a Bridge to employment through lab works"/>
@@ -52,7 +53,8 @@ class App extends React.Component {
             to individual growth and our collective future</p>
         <p> To know about us, visit <a href="https://www.bridgelabz.com/">BridgeLabz</a>
             to learn even more about our mission i.e, <strong>Employablility to all</strong></p>
-    </body>
+      </div>
+    </>
     );   
   }    
 }
